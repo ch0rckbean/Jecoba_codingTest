@@ -7,3 +7,4 @@ def f(n):
 
 n = 100
 print(f(n))
+
