@@ -88,9 +88,9 @@ for i in '9985':
 
 
 def sum(s):
-    answer = 0
-    answer += sum(int(s))
-    print(answer)
-
+    if s=='':
+        return 0
+    else:
+        return int(s[0]) + int(sum(s[1:]))
 
 sum('1234')
